@@ -1,0 +1,69 @@
+;;============================================================================;;
+;; Land of Lisp: learn to program in Lisp, one game at a time!                ;;
+;; http://landoflisp.com/                                                     ;;
+;;----------------------------------------------------------------------------;;
+;; Capítulo 01: Getting Started With Lisp                                     ;;
+;;----------------------------------------------------------------------------;;
+;; Resumo por: Abrantes Araújo Silva Filho                                    ;;
+;;             abrantesasf@gmail.com                                          ;;
+;;============================================================================;;
+
+
+1.1) Dialetos Lisp:
+-------------------
+Existem centenas de dialetos Lisp diferentes, mas 2 são os dominantes hoje em
+dia: Common Lisp e Scheme.
+
+COMMON LISP:
+   - Poder bruto
+   - Um pouco "feio" devido a compromissos práticos
+   - Extensa funcionalidade embutida
+   - Você está mais interessado em resolver um problema da melhor e mais rápida
+     maneira possível
+
+SCHEME:
+   - Limpa e elegante
+   - Se preocupa mais com a "pureza matemática" do que com a concisão do código
+   - Funcionalidade embutida bem menor
+   - Você está mais preocupado com problemas de programação fundamentais na
+     ciência da computação, com a beleza do código, ou resolver problemas na
+     teoria da computação.
+
+COMMON LIST + SCHEME = HASKELL (????)
+   - Ainda NÃO EXISTE um dialeto Lisp que combine o poder do Common Lisp com a
+     beleza matemática da Scheme.
+   - Talvez Haskell (não é um dialeto Lisp, mas segue muitos paradigmas da Lisp)
+     seja uma alternativa interessante, pois é poderosa e ainda com MAIS rigor
+     matemático do que Scheme.
+
+Outros dialetos Lisp comuns hoje em dia:
+   - Clojure           (roda na plataforma Java e pode usar suas bibliotecas)
+   - Elisp             (dialeto usado no Emacs)
+   - Guile Scheme      (linguagem de script usado em aplicações open-source)
+   - Script-Flu Scheme (usado no Gimp)
+   - AutoLISP          (usado no AutoCAD)
+   - ...               (diversos outros)
+
+
+1.2) Common Lisp:
+-----------------
+Common Lisp surgiu em 1981 como uma tentativa de unificar diversos dialetos
+Lisp, com o melhor de cada dialeto, e em 1986 se tornou um padrão ANSI.
+
+É uma linguagem MULTIPARADIGMA, ou seja, suporta vários estilos de programção:
+   - programação funcional
+   - programação orientada á objetos
+   - programação genérica
+   - programação de domain-specific languages
+
+
+
+Implementações comuns:
+   - Steel Bank Common Lisp (SBCL)
+   - CLISP
+   - Allegro
+   - LispWorks
+   - CMUCL
+
+Neste livro qualquer implementação de Common Lisp servirá, mas a partir do
+capítulo 12 serão usados features específicas da CLISP.
