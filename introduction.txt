@@ -1,0 +1,97 @@
+;;============================================================================;;
+;; Land of Lisp: learn to program in Lisp, one game at a time!                ;;
+;; http://landoflisp.com/                                                     ;;
+;;----------------------------------------------------------------------------;;
+;; Capítulo: Introduction                                                     ;;
+;;----------------------------------------------------------------------------;;
+;; Resumo por: Abrantes Araújo Silva Filho                                    ;;
+;;             abrantesasf@gmail.com                                          ;;
+;;============================================================================;;
+
+Má reputação da Lisp pode ser, provavelmente, porque as pessoas procuram
+conhecimento de 3 modos principais:
+   - Buscando o que outras pessoas estão aprendendo (C, C++, Java, etc.)
+   - Buscando o que é fácil aprender
+   - Buscando o que tem um valor fácil de apreciar
+
+
+Linha do tempo:
+---------------
+   - Década de 1940:
+        - Primeiros programas escritos puramente em linguagem de máquina (0/1),
+          para cada computador especificamente (ENIAC, Zuse Z3). Essa
+          programação era feita fisicamente, com cabos e chaves.
+        - No final da década surgiram os primeiros "assemblers" que permitiram
+          que o programa fosse escrito em "texto" ao invés 0/1. As primeiras
+          linguagens de montagem foram Short Code, ARC, ADSAC Initial Orders. O
+          problema era que continuavam específicas para um computador específico
+          e não eram portáveis entre máquinas diferentes.
+          
+   - Década de 1950:
+        - Com o surgimento dos compiladores e intepretadores puderam,
+          finalmente, surgir as primeiras linguagens de programação
+          independentes da máquina: Autocode, Information Processing Language
+          (IPL)
+        - FORTRAN surgiu em 1957 e dominou tudo. Outras linguagens surgiram e
+          evoluíram a partir daí: C, BASIC, etc.
+        - Entre 1956 e 1959 começou o surgimento da Lisp, não como evolução de
+          outras linguagens, mas como uma evolução linguagem com sintaxe
+          matemática, o "Cálculo Lambda". A linhagem da Lisp é assim totalmente
+          diferente das outras linguagens de programação pois veio direto da
+          matemática.
+          
+   - Década de 1960:
+        - Começaram a surgir vários dialetos baseados na Lisp original, como o
+          MACLISP e o Interlisp.
+        - Linguagens "comuns" (C, etc.) continuaram a evoluir.
+        - Uma outra linguagem começou a dominar tudo: o COBOL.
+        
+   - Décadas de 1970 e 1980:
+        - Com um grande boom em pesquisas e desenvolvimento acadêmico na área de
+          inteligência artificial fez Lisp "brilhar" pois seu formalismo
+          matemático era exatamente o necessário para esses problemas. Até
+          meados da década de 1980 tivemos a "Era de Ouro" da Lisp.
+        - A partir da segunda metade de 1980, com os pequenos progressos em IA e
+          com máquinas Lisp com processamente bem inferior aos computadores
+          "normais", começou o chamado "Inverno da IA", e o desenvolvimento da
+          Lisp ficou prejudicado.
+        - Outras linguagens começaram a surgir, como C++, e muitas inovações que
+          surgiram com a Lisp começaram a ser incluídas nas linguagens
+          comerciais, que sobreviveram enquanto Lisp sofria.
+          
+   - Décadas de 1990 e 2000:
+        - Continuava o inverno da IA. Uma grande quantidade de outras linguagens
+          comerciais surgiram: C#, Java.
+        - Mais recentemente surgiram Python, Ruby e outras.
+        
+   - Mais recentemente:
+        - Tímido, mas constante, reinteresse por Lisp.
+
+
+De onde Lisp consegue tanto poder?
+----------------------------------
+Lisp é uma linguagem extremamente expressiva, ou seja, você pode fazer muitas
+coisas com muito pouco código. Isso é possível, principalmente pois:
+
+   - Muitas features embutidas na linguagem
+   - É permitido "alterar" interna e profundamente a linguagem para que ela faça
+     exatamente o que você precisa
+
+Essas duas coisas, na maioria das linguagens de programação, são conflitantes,
+ou seja: se a linguagem já tem muitas features embutidas, mais complicada ela é
+e mais complicado se torna alterar internamente a linguagem. Por isso é quase
+impossível fazer alterações em linguagens maduras já estabelecidas, como Java.
+
+É possível fazer essas mudanças em linguagens maduras estabelecidas? Sim, com
+extremo sacrifício (foi assim que C++ surgiu a partir de C)
+
+Lisp, ao contrário, torna extremamente fácil aos programadores experientes
+alterar o compilador/interpretador que roda um programa, enquando ainda suporta
+todas as features embutidas que bibliotecas extensas. Uma característica chave
+da Lisp que dá suporte a isso é que esrever Lisp diretamente em Lisp é muito
+simples: sendo uma linguagem originada da matemática com sintaxe elegante, ela
+pode escrever a si mesma, ainda suportando extensa biblioteca de features
+embutidas e com facilidade de alteração interna e profunda.
+
+Essa diferença é fundamental: a maioria das linguagens veio do "mundo da
+engenharia", e Lisp veio do "mundo da matemática".
