@@ -1,0 +1,51 @@
+;;============================================================================;;
+;; Land of Lisp: learn to program in Lisp, one game at a time!                ;;
+;; http://landoflisp.com/                                                     ;;
+;;----------------------------------------------------------------------------;;
+;; Capítulo 02: Creating Your First Lisp Program                              ;;
+;;----------------------------------------------------------------------------;;
+;; Resumo por: Abrantes Araújo Silva Filho                                    ;;
+;;             abrantesasf@gmail.com                                          ;;
+;;============================================================================;;
+
+
+Variáveis Globais:
+------------------
+São definidas gloalmente através de definições top-level, com um dos dois
+comandos a seguir:
+
+   - DEFPARAMETER: permite que valores definidos previamente serem sobrescritos
+   - DEFVAR      : NÃO permite sobrescrever valores previamente definidos
+
+Convenção de nome é usar asteriscos: *nome*
+
+
+Variáveis Locais:
+-----------------
+São definidas com o comando LET.
+
+
+Funções Globais:
+----------------
+São definidas com o comando:
+
+   - DEFUN
+
+
+Funções Locais:
+---------------
+São definidas com os comandos:
+
+   - FLET
+   - LABELS (permite que as funções estejam disponíveis para serem utilizadas em
+             outras definições de função)
+
+
+Funções Importantes:
+--------------------
+ASH:
+   Realiza uma operação de shift aritmético com a representação binária do
+   inteiro, deslocando-o para a direita (se count -1) ou para a esquerda (se
+   count 1). Na prática, divide ou multiplica o inteiro por 2, como na divisão
+   inteira:
+   (ash integer count) => shifted-integer
