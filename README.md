@@ -19,7 +19,7 @@ Este repositório contém:
 
 Vale a pena estudar esse livro? Talvez esse vídeo ajude sua decisão:
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/HM1Zb3xmvMc" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+[![Land of Lisp](https://github.com/abrantesasf/lol/blob/master/imagens/lolvid.png)](https://www.youtube.com/embed/HM1Zb3xmvMc)
 
 Abrantes Araújo Silva Filho
 
